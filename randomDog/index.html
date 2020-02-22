@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET Random Dog by Breed</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>DOG!!</h1>
+      <form id="dog-form">
+        <fieldset>
+          <legend>Type a Dog Breed for a Surprise!</legend>
+          <input
+            type="text"
+            name="text"
+            value="affenpinscher"
+            id="dog-pic-breed"
+          />
+          <button type="submit">Show Me The Baby!</button>
+        </fieldset>
+      </form>
+      <div class="pics-container"></div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
